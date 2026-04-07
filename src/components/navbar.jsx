@@ -4,7 +4,7 @@ import './navbar.css'
 function Navbar({ active, onNavigate }) {
   return (
     <nav className="app-navbar">
-      <div className="app-brand">Web Shop</div>
+      <div className="app-brand">Huỳnh Ngọc Quí</div>
       <div className="nav-links">
         <button
           className={`nav-link${active === 'product' ? ' active' : ''}`}
